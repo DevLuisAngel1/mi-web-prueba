@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia | Naturaleza & Bienestar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- BARRA DE MENÚ (HEADER & NAV) -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#inicio" class="logo">
+                    <!-- Icono de Hoja SVG -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/>
+                    </svg>
+                    <span>Harmonia</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#filosofia">Filosofía</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto" class="btn-nav">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE INICIO (HERO) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="hero-tag">Conexión con el entorno</span>
+                <h1 class="hero-title">Espacios que respiran en equilibrio con la tierra</h1>
+                <p class="hero-description">
+                    Creamos experiencias y entornos sostenibles inspirados en tonalidades orgánicas, materiales nobles y la serenidad de la naturaleza.
+                </p>
+                <div class="hero-cta">
+                    <a href="#servicios" class="btn-primary">Descubrir proyectos</a>
+                    <a href="#filosofia" class="btn-secondary">Nuestra visión</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="nature-illustration">
+                    <!-- Icono decorativo de Árbol/Naturaleza -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12C20,14.4 18.9,16.5 17.2,18C15.8,16.8 14,16 12,16C10,16 8.2,16.8 6.8,18C5.1,16.5 4,14.4 4,12A8,8 0 0,1 12,4M12,6C9.8,6 8,7.8 8,10C8,11.7 9.1,13.1 10.6,13.7C10.2,14.4 10,15.2 10,16H14C14,15.2 13.8,14.4 13.4,13.7C14.9,13.1 16,11.7 16,10C16,7.8 14.2,6 12,6Z"/>
+                    </svg>
+                </div>
+                <h3>Sostenibilidad Viva</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                    Integrando flora nativa, bioconstrucción y tonos orgánicos en cada diseño.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE SERVICIOS / PILARES -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Lo que ofrecemos</span>
+                <h2 class="section-title">Diseño consciente y orgánico</h2>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12,3L2,12H5V20H19V12H22L12,3M12,7.7L16,11.3V18H8V11.3L12,7.7Z"/>
+                        </svg>
+                    </div>
+                    <h3>Arquitectura Bioclimática</h3>
+                    <p>Espacios diseñados para aprovechar la luz natural, la ventilación pasiva y reducir la huella ambiental.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12,2L1,21H23L12,2M12,6L19.5,19H4.5L12,6M11,10V14H13V10H11M11,16V18H13V16H11Z"/>
+                        </svg>
+                    </div>
+                    <h3>Materiales Nobles</h3>
+                    <p>Utilizamos madera certificada, arcilla, piedra y textiles de origen ético y regenerativo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M17.5,12A1.5,1.5 0 0,1 16,10.5A1.5,1.5 0 0,1 17.5,9A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 17.5,12M14.5,8A1.5,1.5 0 0,1 13,6.5A1.5,1.5 0 0,1 14.5,5A1.5,1.5 0 0,1 16,6.5A1.5,1.5 0 0,1 14.5,8M9.5,8A1.5,1.5 0 0,1 8,6.5A1.5,1.5 0 0,1 9.5,5A1.5,1.5 0 0,1 11,6.5A1.5,1.5 0 0,1 9.5,8M6.5,12A1.5,1.5 0 0,1 5,10.5A1.5,1.5 0 0,1 6.5,9A1.5,1.5 0 0,1 8,10.5A1.5,1.5 0 0,1 6.5,12M12,3A9,9 0 0,0 3,12A9,9 0 0,0 12,21A1.5,1.5 0 0,0 13.5,19.5C13.5,19.11 13.35,18.76 13.11,18.5C12.88,18.23 12.73,17.88 12.73,17.5A1.5,1.5 0 0,1 14.23,16H16A5,5 0 0,0 21,11C21,6.58 16.97,3 12,3Z"/>
+                        </svg>
+                    </div>
+                    <h3>Paletas de la Tierra</h3>
+                    <p>Composiciones cromáticas basadas en tonos oliva, salvia, arena y terracota que transmiten paz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    <section id="nosotros" class="section about-section">
+        <div class="container about-grid">
+            <div>
+                <span class="section-tag">Sobre el proyecto</span>
+                <h2 class="section-title">Comprometidos con el bienestar y el medio ambiente</h2>
+                <p style="margin-top: 1rem; color: var(--text-muted);">
+                    Creemos que los espacios influyen directamente en la mente y el espíritu. Nuestro enfoque fusiona la estética minimalista con la riqueza de los elementos naturales, logrando armonía visual y confort duradero.
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a href="#contacto" class="btn-primary">Conoce más</a>
+                </div>
+            </div>
+            <div class="about-box">
+                <h3>Impacto Positivo</h3>
+                <p>Cada decisión de diseño prioriza el bajo impacto ambiental, el consumo responsable y la durabilidad de los materiales.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h4>100%</h4>
+                        <span>Materiales sostenibles</span>
+                    </div>
+                    <div class="stat-item">
+                        <h4>+50</h4>
+                        <span>Espacios transformados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Columna 1: Info Marca -->
+                <div class="footer-col footer-about">
+                    <div class="logo" style="color: var(--white);">
+                        <svg viewBox="0 0 24 24" style="fill: #E2ECE5; width:24px; height:24px;">
+                            <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/>
+                        </svg>
+                        <span>Harmonia</span>
+                    </div>
+                    <p>Diseño y estética consciente inspirada en la naturaleza para enriquecer la vida cotidiana.</p>
+                </div>
+
+                <!-- Columna 2: Enlaces Rápidos -->
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#filosofia">Filosofía</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Contacto -->
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hola@harmonia.eco">hola@harmonia.eco</a></li>
+                        <li><a href="tel:+123456789">+1 (234) 567-890</a></li>
+                        <li><a href="#">Av. Los Robles 104</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Boletín -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Boletín Verde</h4>
+                    <p>Recibe inspiración y consejos sobre vida sostenible cada mes.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+                        <input type="email" placeholder="Tu correo..." required>
+                        <button type="submit">Unirme</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Copyright inferior -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Harmonia Studio. Todos los derechos reservados.</p>
+                <div>
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
